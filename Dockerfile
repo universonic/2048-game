@@ -1,4 +1,4 @@
-FROM harbor.corp.local/bitnami/nginx:1.11-alpine
+FROM bitnami/nginx:1.19.10
 
 # Add 2048 stuff into Nginx server
 COPY . /usr/share/nginx/html
